@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Secrets & credentials — never commit
+04_Tools/credentials.json
+**/credentials.json
+*.pem
+*.key
+.env
+.env.*
+.claude/settings.local.json
+
+# Financial / personal PII — excluded by default (opt in explicitly)
+04_Tools/Taxes/
+
+# Dependencies / build
+node_modules/
+dist/
+build/
+
+# Runtime locks
+.claude/scheduled_tasks.lock
+*.lock
