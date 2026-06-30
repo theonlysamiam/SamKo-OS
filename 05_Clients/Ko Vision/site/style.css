@@ -1,0 +1,162 @@
+/* Ko Vision — v1 stylesheet, built to the approved brand kit (2026-06-30).
+   Ink Navy + Paper White carry the page; amber is a single pointer per screen. */
+
+:root {
+  --ink-navy: #14213D;
+  --amber: #FCA311;
+  --paper: #FAFAFA;
+  --graphite: #2B2B2B;
+  --slate: #8D99AE;
+  --maxw: 1080px;
+  --space: clamp(4rem, 9vw, 7rem);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  color: var(--graphite);
+  background: var(--paper);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .lockup, .lockup-sm {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  color: var(--ink-navy);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+/* ---- header ---- */
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem;
+}
+.lockup { font-size: 1.25rem; font-weight: 500; text-decoration: none; }
+.nav { display: flex; gap: 1.75rem; align-items: center; }
+.nav a {
+  color: var(--ink-navy);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+.nav a:hover { color: var(--amber); }
+.nav-cta { color: var(--amber) !important; }
+
+/* ---- shared ---- */
+section { max-width: var(--maxw); margin: 0 auto; padding: var(--space) 1.5rem; }
+.btn {
+  display: inline-block;
+  background: var(--amber);
+  color: var(--ink-navy);
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.85rem 1.6rem;
+  border-radius: 8px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.btn:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(20,33,61,0.15); }
+.section-intro { color: var(--slate); max-width: 42ch; margin-bottom: 2.5rem; }
+
+/* ---- hero ---- */
+.hero { padding-top: clamp(3rem, 7vw, 5rem); }
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--slate);
+  margin-bottom: 1.25rem;
+}
+.hero h1 { font-size: clamp(2.6rem, 7vw, 4.5rem); font-weight: 700; }
+.lede {
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  max-width: 46ch;
+  margin: 1.75rem 0 2.25rem;
+  color: var(--graphite);
+}
+
+/* ---- work ---- */
+.work h2, .contact h2 { font-size: clamp(1.8rem, 4vw, 2.5rem); margin-bottom: 0.75rem; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.75rem;
+}
+.card {
+  background: #fff;
+  border: 1px solid rgba(141,153,174,0.25);
+  border-radius: 14px;
+  overflow: hidden;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.card:hover { transform: translateY(-4px); box-shadow: 0 12px 28px rgba(20,33,61,0.10); }
+.thumb {
+  aspect-ratio: 16 / 10;
+  background: var(--ink-navy);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thumb span { color: var(--slate); font-size: 0.85rem; letter-spacing: 0.04em; }
+.card h3 { font-size: 1.2rem; font-weight: 500; margin: 1.25rem 1.25rem 0.5rem; }
+.card p { margin: 0 1.25rem; color: var(--graphite); font-size: 0.95rem; }
+.tag {
+  display: inline-block;
+  margin: 1rem 1.25rem 1.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--amber);
+  border: 1px solid var(--amber);
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+}
+.card:not(.card-live) p { margin-bottom: 1.5rem; }
+
+/* ---- about ---- */
+.about { display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 3rem; align-items: center; }
+.about-photo {
+  aspect-ratio: 4 / 5;
+  background: var(--ink-navy);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.about-photo span { color: var(--slate); font-size: 0.85rem; line-height: 1.5; }
+.about-copy h2 { font-size: clamp(1.8rem, 4vw, 2.5rem); margin-bottom: 1rem; }
+.about-copy p { max-width: 50ch; margin-bottom: 1rem; }
+
+/* ---- contact ---- */
+.contact { text-align: center; }
+.contact p { max-width: 44ch; margin: 0.75rem auto 2rem; color: var(--graphite); }
+.contact-note { font-size: 0.8rem; color: var(--slate); margin-top: 1.5rem; }
+
+/* ---- footer ---- */
+.site-footer {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+  border-top: 1px solid rgba(141,153,174,0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--slate);
+  font-size: 0.9rem;
+}
+.lockup-sm { font-size: 1rem; font-weight: 500; }
+
+/* ---- responsive ---- */
+@media (max-width: 720px) {
+  .about { grid-template-columns: 1fr; }
+  .about-photo { max-width: 320px; }
+  .nav { gap: 1.1rem; }
+}
