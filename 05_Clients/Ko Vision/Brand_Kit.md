@@ -1,5 +1,6 @@
 # Ko Vision — Brand Kit
 *Approved by Sam — 2026-06-30*
+*Revised 2026-06-30 — palette moved to **black & yellow** at Sam's direction (his signature theme) with a more modern, bolder layout. Near-black replaces Ink Navy; Signal Yellow replaces amber. Every "amber" usage rule below now applies to yellow: one deliberate pointer per screen, never a fill or background behind the name.*
 
 **What it is:** Samuel Ko's personal creative portfolio. Not a packaged service, not an agency pitch — a showreel of his work, his eye, and his capabilities as a digital creator. The site itself is the product. Audience: creators and personal brands building their own thing online.
 
@@ -13,13 +14,13 @@
 
 | Role | Color | Hex | Why it fits |
 |---|---|---|---|
-| Primary | Ink Navy | `#14213D` | Reads as trustworthy and considered rather than corporate-blue-cold; dark enough to let portfolio screenshots/visuals be the loudest thing on the page. |
-| Secondary | Signal Amber | `#FCA311` | One warm, confident accent — used sparingly for CTAs and links. Says "a real person made this decision," not "this was auto-generated from a palette tool." |
-| Neutral (light) | Paper White | `#FAFAFA` | Off-white, not stark white — keeps the site feeling designed rather than like a blank template default. |
-| Neutral (dark) | Graphite | `#2B2B2B` | Body text color. Softer than pure black, easier to read at length, still high-contrast enough to look intentional. |
-| Accent | Slate Mist | `#8D99AE` | Secondary text, dividers, captions — keeps hierarchy clean without adding a second loud color. |
+| Primary | Near-Black | `#0D0D0D` | The canvas. Rich near-black instead of pure `#000` — reads modern and editorial, and makes both the work and the yellow pop hard. |
+| Accent | Signal Yellow | `#FFD60A` | The one weapon. CTAs, a single highlight per screen, hover states. Loud on purpose — which is exactly why it's used sparingly. |
+| Surface | Panel | `#161616` | Cards and lifted sections, just off the black so edges read without a hard border. |
+| Text (light) | Paper | `#F5F5F4` | Primary text and the name lockup on black. Off-white, not stark, so it doesn't vibrate against the dark. |
+| Muted | Ash Grey | `#9A9A9A` | Secondary text, captions, dividers — keeps hierarchy clean without a second loud color. |
 
-**Rule of thumb:** 90% of any screen should be Ink Navy / Paper White / Graphite. Amber appears once, maybe twice, per screen — it's a pointer, not a personality.
+**Rule of thumb:** 90% of any screen is Near-Black + Paper text. Yellow appears once, maybe twice, per screen — a highlight, the button, or a hover. It's a pointer, not a personality. Never put yellow behind the name lockup.
 
 ---
 
