@@ -1,6 +1,6 @@
 # Ko Vision — Brand Kit
 *Approved by Sam — 2026-06-30*
-*Revised 2026-06-30 — palette moved to **black & yellow** at Sam's direction (his signature theme) with a more modern, bolder layout. Near-black replaces Ink Navy; Signal Yellow replaces amber. Every "amber" usage rule below now applies to yellow: one deliberate pointer per screen, never a fill or background behind the name.*
+*Revised 2026-06-30 — palette is **black & gold-yellow** at Sam's direction (his signature theme), with a modern, quiet-luxury layout. Near-black replaces Ink Navy; **Signal Gold `#E8B931`** is the accent (Sam chose warm gold over bright yellow for a premium read). Every original "amber" usage rule now applies to the gold: one deliberate pointer per screen, never a fill or background behind the name. A small **KV monogram tile** is the favicon/avatar mark (see Logo & Usage).*
 
 **What it is:** Samuel Ko's personal creative portfolio. Not a packaged service, not an agency pitch — a showreel of his work, his eye, and his capabilities as a digital creator. The site itself is the product. Audience: creators and personal brands building their own thing online.
 
@@ -15,12 +15,12 @@
 | Role | Color | Hex | Why it fits |
 |---|---|---|---|
 | Primary | Near-Black | `#0D0D0D` | The canvas. Rich near-black instead of pure `#000` — reads modern and editorial, and makes both the work and the yellow pop hard. |
-| Accent | Signal Yellow | `#FFD60A` | The one weapon. CTAs, a single highlight per screen, hover states. Loud on purpose — which is exactly why it's used sparingly. |
+| Accent | Signal Gold | `#E8B931` | The one weapon. CTAs, a single highlight per screen, hover states. Warm gold reads premium and deliberate — used sparingly so it stays that way. |
 | Surface | Panel | `#161616` | Cards and lifted sections, just off the black so edges read without a hard border. |
-| Text (light) | Paper | `#F5F5F4` | Primary text and the name lockup on black. Off-white, not stark, so it doesn't vibrate against the dark. |
+| Text (light) | Warm Paper | `#EFEAE0` | Primary text and the name lockup on black. Warm off-white, not cold white — pairs with the gold for the luxury read. |
 | Muted | Ash Grey | `#9A9A9A` | Secondary text, captions, dividers — keeps hierarchy clean without a second loud color. |
 
-**Rule of thumb:** 90% of any screen is Near-Black + Paper text. Yellow appears once, maybe twice, per screen — a highlight, the button, or a hover. It's a pointer, not a personality. Never put yellow behind the name lockup.
+**Rule of thumb:** 90% of any screen is Near-Black + Warm Paper text. Gold appears once, maybe twice, per screen — a highlight, the button, or a hover. It's a pointer, not a personality. Never put gold behind the name lockup.
 
 ---
 
@@ -51,7 +51,9 @@ Bilingual note: English is the default voice for the site. If/when Mandarin cont
 
 ## Logo & Usage
 
-There is no separate logo mark for v1 — the brand is Sam's name and face, not a symbol. This is deliberate: a portfolio that's making the case "I have taste" doesn't need to invent an icon to prove it.
+The main identity is Sam's name and face, not a symbol — a portfolio making the case "I have taste" doesn't need an icon to prove it. The **one exception** is a small **KV monogram tile**, used *only* where a full name can't fit:
+
+- **KV tile mark:** "KV" in Space Grotesk bold, black `#0D0D0D` on a Signal Gold `#E8B931` rounded square. Used for the browser-tab favicon and social avatars. Never place it as a logo on the site itself — the name lockup is the identity; the tile is just the small-space stand-in.
 
 - **Name lockup:** "Ko Vision" set in Space Grotesk, medium weight, Ink Navy on Paper White (or reversed: Paper White on Ink Navy for dark sections). Always two words, always title case — never "KoVision" or "koVision."
 - **Clear space:** minimum clear space around the lockup equal to the cap-height of the "K."
