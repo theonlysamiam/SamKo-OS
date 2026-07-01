@@ -9,6 +9,8 @@ owner: Sam
 
 The end-to-end process for taking a client from onboarding to published content and ongoing account management. This is Sam's first deliverable — the goal is to run and debug it without Jon.
 
+**Agents wired in (2026-06-30):** branding (step 2), design (step 5), social-media (steps 7–8). Where an agent exists, delegate to it in plain English; otherwise follow the "how to do it by hand" steps. Remaining gaps are listed at the bottom.
+
 ---
 
 ## Zone 1 — Setup (once per client)
@@ -143,7 +145,7 @@ The end-to-end process for taking a client from onboarding to published content 
 
 **Output:** A polished content batch, ready for approval.
 
-**Agent/tool:** Canva MCP is connected — designs can be edited programmatically. *Future: a design agent that applies brand-kit rules to Canva templates and flags inconsistencies.*
+**Agent/tool:** ✅ **Built.** Delegate to the **design agent** (runs the `canva-post` skill) — it applies your brand-kit rules in Canva and flags what drifts. You still do the final eye check (this is the step Jon wants you to own); the agent does the heavy lifting.
 
 ---
 
@@ -190,7 +192,7 @@ The end-to-end process for taking a client from onboarding to published content 
 
 **Output:** All posts scheduled and confirmed.
 
-**Agent/tool:** *Future: a publishing agent that pushes approved content to Metricool/Blotato via API. Metricool has an API; Blotato may need browser automation.*
+**Agent/tool:** ✅ **Built.** Delegate to the **social-media agent** (runs the `publish-schedule` skill) — it loads the approved batch into Metricool/Blotato, schedules it, and reads the queue back to you. (Still to standardize: which publisher.)
 
 ---
 
@@ -217,7 +219,7 @@ The end-to-end process for taking a client from onboarding to published content 
 
 **Output:** A 2-week performance report in the client folder.
 
-**Agent/tool:** *Future: a reporting agent that pulls metrics from platform APIs or Metricool and generates the report automatically.*
+**Agent/tool:** Partly built — the **social-media agent**'s `publish-schedule` skill includes a 2-week reporting step. *Still future: automatic metric pulls from platform APIs.*
 
 ---
 
@@ -245,14 +247,15 @@ The end-to-end process for taking a client from onboarding to published content 
 
 These are flagged for the infrastructure chat. Build them one at a time as Sam masters each manual step.
 
-| Priority | What | Type | Why |
-|----------|------|------|-----|
-| 1 | **Design agent** | Agent + Skill | Canva edits, brand-kit enforcement, template application. Unblocks step 5. |
-| 2 | **Content studio agent** | Agent + Skill | Takes strategy → outputs content batch (captions, visual briefs, hashtags). Unblocks step 4. |
-| 3 | **Social media audit agent** | Agent + Skill | Pulls metrics, scores presence, drafts strategy. Speeds up step 2. |
-| 4 | **Publishing agent** | Agent + Skill | Pushes approved content to Metricool/Blotato. Automates step 7. |
-| 5 | **Reporting agent** | Agent + Skill | Pulls platform metrics, generates 2-week report. Automates step 8. |
-| 6 | **Client onboarding agent** | Agent + Skill | Pre-fills client profile from URL + social handles. Speeds up step 1. |
+| Status | What | Type | Role in SOP |
+|---|---|---|---|
+| ✅ Built | **Branding agent** | Agent + Skill | Brand kits / audits. Supports step 2. |
+| ✅ Built | **Design agent** | Agent + Skill | Canva edits + brand-kit enforcement. Runs step 5. |
+| ✅ Built | **Social-media agent** | Agent + Skill | Publishes + schedules approved content; 2-week report. Runs steps 7–8. |
+| ⬜ Next | **Content-studio agent** | Agent + Skill | Strategy → content batch. Unblocks step 4. *(Jon's Antigravity pipeline may cover this.)* |
+| ⬜ Next | **Social-audit agent** | Agent + Skill | Auto-pull metrics + score presence. Speeds step 2. |
+| ⬜ Next | **Reporting agent** | Agent + Skill | Automatic metric pulls for the 2-week report. Deepens step 8. |
+| ⬜ Later | **Client-onboarding agent** | Agent + Skill | Pre-fill profile from URL + handles. Speeds step 1. |
 
 ---
 
