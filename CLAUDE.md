@@ -32,13 +32,14 @@ Delegate to these. They live in `.claude/agents/`. Names are functional placehol
 - **branding** — builds brand kits (palette, type, voice, usage rules). Use when onboarding a client or defining Ko Vision. Runs the `brand-kit` skill.
 - **web-builder** — builds and ships websites, starting with kovision.com. Runs the `portfolio-site` skill.
 - **design** — Canva design and post edits, built from the brand kit. Runs the `canva-post` skill.
-- **social-media** *(coming next)* — publishing and scheduling implementation.
+- **social-media** — publishing and scheduling; loads approved posts into Metricool/Blotato and reports results. Runs the `publish-schedule` skill.
 
 ## Skills (trained procedures)
 Reusable recipes in `.claude/skills/`. Agents run them; Sam can also run one directly by name.
 - **brand-kit** — produce a complete brand kit document for a client or Ko Vision.
 - **portfolio-site** — plan and build a one-page portfolio website from a brand kit.
 - **canva-post** — create or edit an on-brand social post in Canva.
+- **publish-schedule** — load approved posts into the publisher and schedule them.
 
 ## Where things live
 - `00_Inbox` capture · `01_Agents` agent briefs · `02_Skills` skill notes · `03_Workflows` SOPs · `04_Tools` scripts · `05_Clients` client files (Ko Vision lives here as client #1) · `88_Templates` · `99_Meta` system docs + session starters.
