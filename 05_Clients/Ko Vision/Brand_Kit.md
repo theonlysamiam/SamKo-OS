@@ -26,10 +26,10 @@
 
 ## Typography
 
-- **Heading font:** [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk) (Google Fonts, free) — geometric but not robotic, has a little personality in the lowercase letterforms without tipping into trendy/gimmicky. Used for: name lockup, project titles, section headers.
-- **Body font:** [Inter](https://fonts.google.com/specimen/Inter) (Google Fonts, free) — the most legible, least decorative sans-serif available for free; built for screens. Used for: all body copy, captions, nav, footer.
+- **Display font:** [Cormorant Garamond](https://fonts.google.com/specimen/Cormorant+Garamond) (Google Fonts, free) — an elegant high-contrast serif. Light weights and *italic accent words* give the editorial-luxury feel. Used for: hero and section titles, project names, the name lockup.
+- **Sans / UI font:** [Jost](https://fonts.google.com/specimen/Jost) (Google Fonts, free) — a clean geometric sans in thin weights. Used for: body copy and the small uppercase wide-tracked labels (eyebrows, nav, tags).
 
-**Pairing logic:** Space Grotesk carries the "modern" word in the brief, Inter carries "clear" and "trustworthy." Neither font asks to be noticed — they let the portfolio content be the visual interest.
+**Pairing logic:** Cormorant Garamond carries the elegance and taste; Jost keeps the details quiet and modern. The serif performs, the sans stays out of the way. *(Revised 2026-06-30 from Space Grotesk + Inter to match the editorial-luxury direction Sam chose, à la habanify / koluxury.)*
 
 ---
 
