@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!-- kovision.com — v5 draft. Editorial luxury (Koluxury-inspired), black & gold.
-     Sam, 2026-06-30. TODO = placeholders for Sam. Draft until Sam approves (human gate). -->
+<!-- kovision.com — v6 draft. "Creative studio × luxury" fusion (warm greige, kinetic type,
+     tilted work-cards, gold + serif accents). Sam, 2026-06-30. TODO = placeholders. Draft. -->
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -10,174 +10,148 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="cursor" id="cursor"></div>
-  <div class="cursor-ring" id="cursorRing"></div>
+  <div class="page" id="top">
+    <nav>
+      <a href="#top" class="nav-logo">Ko Vision.</a>
+      <div class="nav-pill">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+      </div>
+      <div class="nav-right">
+        <a href="#contact" class="nav-link">Get in touch</a>
+        <a href="#contact" class="nav-cta">Start a project</a>
+      </div>
+    </nav>
 
-  <nav>
-    <a href="#top" class="nav-logo">Ko Vision</a>
-    <ul class="nav-links">
-      <li><a href="#services">Services</a></li>
-      <li><a href="#work">Work</a></li>
-      <li><a href="#about">About</a></li>
-    </ul>
-    <a href="#contact" class="nav-cta">Start a project</a>
-  </nav>
+    <section class="hero">
+      <div class="hero-stage">
+        <a href="#work" class="chip c1"><div class="chip-img img-web"></div><span class="chip-plus">+</span><span class="chip-label">Web</span></a>
+        <a href="#work" class="chip c2"><div class="chip-img img-social"></div><span class="chip-plus">+</span><span class="chip-label">Social</span></a>
+        <a href="#work" class="chip c3"><div class="chip-img img-brand"></div><span class="chip-plus">+</span><span class="chip-label">Brand</span></a>
+        <div>
+          <h1 class="hero-words">Creative work<br /><span class="faint">that</span> shows,<br />not <em>tells.</em></h1>
+          <div class="hero-sub">
+            <a href="#work" class="btn-primary">See the work</a>
+            <a href="#contact" class="btn-ghost">Start a project</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section class="hero" id="top">
-    <div class="hero-bg"></div>
-    <div class="hero-grid"></div>
-    <div class="hero-content">
-      <div class="eyebrow">Samuel Ko — Digital Creator</div>
-      <h1 class="hero-title">Work that <em>shows</em>,<br />not tells.</h1>
-      <p class="hero-body">Ko Vision is my creative portfolio — clear, modern work that proves what a digital creator with taste can actually build.</p>
-      <div class="hero-actions">
+    <div class="marquee-wrap">
+      <div class="marquee-track">
+        <span>Web</span><span>Design</span><span>Social</span><span>Content</span><span>SEO</span><span>Branding</span>
+        <span>Web</span><span>Design</span><span>Social</span><span>Content</span><span>SEO</span><span>Branding</span>
+      </div>
+    </div>
+
+    <section id="services">
+      <div class="sec-head reveal">
+        <span class="eyebrow">What I do</span>
+        <h2 class="section-title">A few things,<br />done with <em>taste.</em></h2>
+      </div>
+      <div class="grid-3 reveal">
+        <article class="svc"><div class="svc-num">01</div><h3>Web</h3><p>Portfolio and brand sites that look as considered as the work they hold.</p></article>
+        <article class="svc"><div class="svc-num">02</div><h3>Brand</h3><p>A clear identity — palette, type, voice — that stays out of the work's way.</p></article>
+        <article class="svc"><div class="svc-num">03</div><h3>Social</h3><p>Content and management that builds a presence worth following.</p></article>
+        <article class="svc"><div class="svc-num">04</div><h3>Content</h3><p>Posts, designs, and copy made to a standard, not a quota.</p></article>
+        <article class="svc"><div class="svc-num">05</div><h3>SEO</h3><p>Get found by the people already looking for what you make.</p></article>
+        <article class="svc svc-cta"><h3>Have something in mind?</h3><a href="#contact">Let's talk →</a></article>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Selected work</span>
+        <h2 class="section-title">The <em>proof.</em></h2>
+      </div>
+      <div class="work-grid reveal">
+        <article class="work-card">
+          <div class="work-media"><span class="work-tag">Live now</span><span class="work-plus">+</span><span class="work-label">Socials, live</span></div>
+          <div class="work-cat"><strong>My own socials, run like a client's</strong>The 90-day proof — TODO: cover image</div>
+        </article>
+        <article class="work-card">
+          <div class="work-media"><span class="work-plus">+</span><span class="work-label">Project</span></div>
+          <div class="work-cat"><strong>Project title</strong>TODO: real piece + image</div>
+        </article>
+        <article class="work-card">
+          <div class="work-media"><span class="work-plus">+</span><span class="work-label">Project</span></div>
+          <div class="work-cat"><strong>Project title</strong>TODO: real piece + image</div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about reveal">
+      <div class="about-photo">TODO: your photo<br />(editorial, natural light)</div>
+      <div>
+        <span class="eyebrow">About</span>
+        <h2>Made the way I'd<br /><em>make it for a client.</em></h2>
+        <p>I built this because I was tired of telling people what I do instead of just showing them. Everything here is mine. I help creators and personal brands look as good online as the work they're actually doing.</p>
         <a href="#work" class="btn-primary">See the work</a>
-        <a href="#contact" class="btn-ghost">Start a project</a>
-      </div>
-    </div>
-    <div class="hero-right">
-      <div class="hero-visual">
-        <div class="frame"><span class="frame-mark">KV</span></div>
-        <div class="hero-badge">
-          <div class="hero-badge-inner">K</div>
-          <div class="hero-badge-sub">Est 2026</div>
+        <div class="stats-row" style="margin-top:32px;">
+          <div><div class="stat-num">GTA</div><div class="stat-lbl">Based in Toronto</div></div>
+          <div><div class="stat-num">EN / 中文</div><div class="stat-lbl">Bilingual</div></div>
+          <div><div class="stat-num">2026</div><div class="stat-lbl">Building in public</div></div>
         </div>
       </div>
-    </div>
-    <div class="scroll-indicator">
-      <div class="scroll-line"></div>
-      <span class="scroll-text">Scroll</span>
-    </div>
-  </section>
+    </section>
 
-  <div class="marquee-wrap">
-    <div class="marquee-track">
-      <span>Web</span><span>Design</span><span>Social</span><span>Content</span><span>SEO</span><span>Branding</span>
-      <span>Web</span><span>Design</span><span>Social</span><span>Content</span><span>SEO</span><span>Branding</span>
-    </div>
-  </div>
+    <section class="manifesto reveal">
+      <blockquote>I'd rather show you <em>than tell you.</em></blockquote>
+      <div class="divider"></div>
+      <cite>Samuel Ko</cite>
+    </section>
 
-  <section id="services">
-    <div class="sec-head center reveal">
-      <div class="eyebrow center">What I do</div>
-      <h2 class="section-title">A few things,<br /><em>done with taste.</em></h2>
-    </div>
-    <div class="grid-3 reveal">
-      <article class="svc"><div class="svc-num">01</div><h3>Web</h3><p>Portfolio and brand sites that look as considered as the work they hold.</p></article>
-      <article class="svc"><div class="svc-num">02</div><h3>Brand</h3><p>A clear identity — palette, type, voice — that stays out of the work's way.</p></article>
-      <article class="svc"><div class="svc-num">03</div><h3>Social</h3><p>Content and management that builds a presence worth following.</p></article>
-      <article class="svc"><div class="svc-num">04</div><h3>Content</h3><p>Posts, designs, and copy made to a standard, not a quota.</p></article>
-      <article class="svc"><div class="svc-num">05</div><h3>SEO</h3><p>Get found by the people already looking for what you make.</p></article>
-      <article class="svc svc-cta"><h3 class="serif">Have something in mind?</h3><a href="#contact">Let's talk →</a></article>
-    </div>
-  </section>
+    <section class="contact" id="contact">
+      <span class="eyebrow">Get in touch</span>
+      <h2>Let's build<br />something <em>sharp.</em></h2>
+      <p class="contact-body">If you're building your own thing and want it to look the part, I'm a message away.</p>
+      <form class="contact-form" onsubmit="startProject(event)">
+        <input type="email" class="contact-input" placeholder="Your email address" required id="emailInput" />
+        <button type="submit" class="contact-btn">Start</button>
+      </form>
+      <p class="contact-note">TODO: set the real contact email (currently hello@kovision.com).</p>
+    </section>
 
-  <section id="work">
-    <div class="sec-head center reveal">
-      <div class="eyebrow center">Selected work</div>
-      <h2 class="section-title">The <em>proof.</em></h2>
-    </div>
-    <div class="work-grid reveal">
-      <article class="work-card">
-        <div class="work-media"><span class="work-tag">Live now</span>TODO: cover image</div>
-        <div class="work-info"><div class="work-cat">Social · Live case study</div><div class="work-name">My own socials, run like a client's</div></div>
-      </article>
-      <article class="work-card">
-        <div class="work-media">TODO: project image</div>
-        <div class="work-info"><div class="work-cat">Category</div><div class="work-name">Project title</div></div>
-      </article>
-      <article class="work-card">
-        <div class="work-media">TODO: project image</div>
-        <div class="work-info"><div class="work-cat">Category</div><div class="work-name">Project title</div></div>
-      </article>
-    </div>
-  </section>
-
-  <div class="story" id="about">
-    <div class="story-visual reveal">
-      <div class="story-photo">TODO: your photo<br />(editorial, natural light)</div>
-    </div>
-    <div class="story-content reveal">
-      <div class="eyebrow">About</div>
-      <h2 class="section-title">Made the way I'd<br /><em>make it for a client.</em></h2>
-      <p class="story-body">I built this because I was tired of telling people what I do instead of just showing them. Everything here — the layout, the copy, the case studies — is mine. I help creators and personal brands look as good online as the work they're actually doing.</p>
-      <a href="#work" class="btn-primary" style="width:fit-content;">See the work</a>
-      <div class="stats-row">
-        <div><div class="stat-num serif">GTA</div><div class="stat-lbl">Based in Toronto</div></div>
-        <div><div class="stat-num serif">EN / 中文</div><div class="stat-lbl">Bilingual</div></div>
-        <div><div class="stat-num serif">2026</div><div class="stat-lbl">Building in public</div></div>
-      </div>
-    </div>
-  </div>
-
-  <section class="manifesto reveal">
-    <blockquote class="serif">I'd rather show you <em>than tell you.</em></blockquote>
-    <div class="divider"></div>
-    <cite>Samuel Ko</cite>
-  </section>
-
-  <section class="contact" id="contact">
-    <div class="eyebrow center">Get in touch</div>
-    <h2 class="section-title">Let's build<br /><em>something sharp.</em></h2>
-    <p class="contact-body">If you're building your own thing and want it to look the part, I'm a message away.</p>
-    <form class="contact-form" onsubmit="startProject(event)">
-      <input type="email" class="contact-input" placeholder="Your email address" required id="emailInput" />
-      <button type="submit" class="contact-btn">Start</button>
-    </form>
-    <p class="contact-note">TODO: set the real contact email (currently hello@kovision.com).</p>
-  </section>
-
-  <footer>
-    <div class="footer-top">
-      <div>
-        <div class="footer-brand">Ko Vision</div>
-        <p class="footer-desc">Samuel Ko's creative portfolio. Clear, modern work for creators and personal brands building their own thing online.</p>
-        <div class="footer-socials">
-          <a href="#" class="social-btn">in</a>
-          <a href="#" class="social-btn">ig</a>
-          <a href="#" class="social-btn">tt</a>
-          <a href="#" class="social-btn">fb</a>
+    <footer>
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand">Ko Vision.</div>
+          <p class="footer-desc">Samuel Ko's creative portfolio. Clear, modern work for creators and personal brands building their own thing online.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-btn">in</a><a href="#" class="social-btn">ig</a><a href="#" class="social-btn">tt</a><a href="#" class="social-btn">fb</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Work</div>
+          <ul class="footer-links"><li><a href="#work">Selected work</a></li><li><a href="#work">Live case study</a></li></ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Services</div>
+          <ul class="footer-links"><li><a href="#services">Web</a></li><li><a href="#services">Brand</a></li><li><a href="#services">Social</a></li><li><a href="#services">Content</a></li><li><a href="#services">SEO</a></li></ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Contact</div>
+          <ul class="footer-links"><li><a href="#contact">Start a project</a></li><li><a href="mailto:hello@kovision.com">Email me</a></li></ul>
         </div>
       </div>
-      <div>
-        <div class="footer-col-title">Work</div>
-        <ul class="footer-links"><li><a href="#work">Selected work</a></li><li><a href="#work">Live case study</a></li></ul>
+      <div class="footer-bottom">
+        <span class="footer-copy">© <span id="yr">2026</span> Samuel Ko · Toronto, Canada</span>
+        <span class="footer-copy italic">Built to be shown.</span>
       </div>
-      <div>
-        <div class="footer-col-title">Services</div>
-        <ul class="footer-links"><li><a href="#services">Web</a></li><li><a href="#services">Brand</a></li><li><a href="#services">Social</a></li><li><a href="#services">Content</a></li><li><a href="#services">SEO</a></li></ul>
-      </div>
-      <div>
-        <div class="footer-col-title">Contact</div>
-        <ul class="footer-links"><li><a href="#contact">Start a project</a></li><li><a href="mailto:hello@kovision.com">Email me</a></li></ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span class="footer-copy">© <span id="yr">2026</span> Samuel Ko · Toronto, Canada</span>
-      <span class="footer-copy italic">Built to be shown.</span>
-    </div>
-  </footer>
+    </footer>
+  </div>
 
   <script>
     document.getElementById('yr').textContent = new Date().getFullYear();
-
-    const cursor = document.getElementById('cursor'), ring = document.getElementById('cursorRing');
-    let mx = 0, my = 0, rx = 0, ry = 0;
-    document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; cursor.style.left = mx - 4 + 'px'; cursor.style.top = my - 4 + 'px'; });
-    (function ring_loop() { rx += (mx - rx) * 0.14; ry += (my - ry) * 0.14; ring.style.left = rx - 16 + 'px'; ring.style.top = ry - 16 + 'px'; requestAnimationFrame(ring_loop); })();
-    document.querySelectorAll('a, button, .work-card, .svc').forEach(el => {
-      el.addEventListener('mouseenter', () => { ring.style.transform = 'scale(1.7)'; ring.style.borderColor = 'rgba(232,185,49,0.7)'; });
-      el.addEventListener('mouseleave', () => { ring.style.transform = 'scale(1)'; ring.style.borderColor = 'rgba(232,185,49,0.4)'; });
-    });
-
     const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } }), { threshold: 0.12 });
     document.querySelectorAll('.reveal').forEach(el => io.observe(el));
-
-    function startProject(e) { e.preventDefault(); const to = 'hello@kovision.com'; const from = document.getElementById('emailInput').value; window.location.href = 'mailto:' + to + '?subject=Project inquiry&body=' + encodeURIComponent('Hi Samuel — my email is ' + from + ' and I\'d like to talk about a project.'); }
+    function startProject(e) { e.preventDefault(); const from = document.getElementById('emailInput').value; window.location.href = 'mailto:hello@kovision.com?subject=Project inquiry&body=' + encodeURIComponent('Hi Samuel — my email is ' + from + ' and I\'d like to talk about a project.'); }
   </script>
 </body>
 </html>
