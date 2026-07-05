@@ -1,89 +1,100 @@
 # Ko Vision — Brand Kit
-*Approved by Sam — 2026-06-30*
-*Revised 2026-06-30 — palette is **black & gold-yellow** at Sam's direction (his signature theme), with a modern, quiet-luxury layout. Near-black replaces Ink Navy; **Signal Gold `#E8B931`** is the accent (Sam chose warm gold over bright yellow for a premium read). Every original "amber" usage rule now applies to the gold: one deliberate pointer per screen, never a fill or background behind the name. A small **KV monogram tile** is the favicon/avatar mark (see Logo & Usage).*
 
-**What it is:** Samuel Ko's personal creative portfolio. Not a packaged service, not an agency pitch — a showreel of his work, his eye, and his capabilities as a digital creator. The site itself is the product. Audience: creators and personal brands building their own thing online.
-
-**Elevator line:** "Ko Vision is Samuel Ko's creative portfolio — clear, modern work that shows what a digital creator with taste can actually build."
-
-**Reading the brand:** There's nothing to react to — kovision.com is currently a parked/unregistered domain, no inherited visuals, no existing voice to unwind. That's the right starting condition for this kit: every choice below is built from scratch off the discovery answers, not patched onto something old. The core design tension to hold: this is a *personal* brand with Sam's face on it, but the brand vibe is "clear, modern, trustworthy" — meaning the chrome around the work should be quiet. Sam's taste is the differentiator, and it needs to show up *in the portfolio pieces themselves*, not in a loud logo or a busy color system competing for attention. The brand's job here is to frame, not perform.
+*Version 2 — 2026-06-30. Definitive kit, matched to the live site (v6: "creative studio × luxury"). Supersedes the earlier navy and black/gold drafts. Approved direction: warm greige canvas, bold Inter headlines, gold + serif-italic accents, Sam's own photography as the proof.*
 
 ---
 
-## Color Palette
+## What it is
+Samuel Ko's personal creative portfolio — a showreel of his work, his eye, and his capabilities as a digital creator. Not a packaged service; the site itself is the product. **Audience:** creators and personal brands building their own thing online. **Current proof:** Sam's own food & content photography.
 
-| Role | Color | Hex | Why it fits |
+**Elevator line:** "Ko Vision is Samuel Ko's creative portfolio — clear, modern work that shows what a digital creator with taste can actually build."
+
+## The feeling
+**Three words:** Clear · Modern · Trustworthy — now delivered with a **warm, editorial-luxury** confidence (playful energy + refined taste). The brand frames the work; it never competes with it. Taste shows up in the photography and the layout, not in loud chrome.
+
+---
+
+## Color palette
+Warm neutrals carry the page; gold is the single accent, pulled once or twice per screen.
+
+| Role | Name | Hex | Where it's used |
 |---|---|---|---|
-| Primary | Near-Black | `#0D0D0D` | The canvas. Rich near-black instead of pure `#000` — reads modern and editorial, and makes both the work and the yellow pop hard. |
-| Accent | Signal Gold | `#E8B931` | The one weapon. CTAs, a single highlight per screen, hover states. Warm gold reads premium and deliberate — used sparingly so it stays that way. |
-| Surface | Panel | `#161616` | Cards and lifted sections, just off the black so edges read without a hard border. |
-| Text (light) | Warm Paper | `#EFEAE0` | Primary text and the name lockup on black. Warm off-white, not cold white — pairs with the gold for the luxury read. |
-| Muted | Ash Grey | `#9A9A9A` | Secondary text, captions, dividers — keeps hierarchy clean without a second loud color. |
+| Canvas | Warm Greige | `#C6BCA8` | The main background — warm, calm, premium. |
+| Frame | Light Greige | `#DAD3C5` | The outer margin the page "sits in" (rounded-container look). |
+| Card | Warm Paper | `#FBF9F3` | Service cards, pills, light surfaces. Near-white, warm. |
+| Ink | Near-Black | `#1B1810` | Headlines and body text. Warm black, not pure `#000`. |
+| Muted | Ash | `#8E836A` | Secondary text, captions. |
+| Faded | Faint Greige | `#B3A88E` | The low-contrast words in kinetic headlines (e.g. the faded "that"). |
+| Accent | Signal Gold | `#B0842A` (on light) / `#E8B931` (bright, on dark) | CTAs, accent words, the KV tile, "+" hovers. Deep gold reads on the light canvas; bright gold pops on dark image cards. |
+| Thumb | Dark Roast | `#17140E` | Behind photography and dark tiles. |
 
-**Rule of thumb:** 90% of any screen is Near-Black + Warm Paper text. Gold appears once, maybe twice, per screen — a highlight, the button, or a hover. It's a pointer, not a personality. Never put gold behind the name lockup.
+**Rule of thumb:** ~90% of any screen is Warm Greige + Ink. Gold appears once, maybe twice — a button, an accent word, a hover. It's a pointer, not a personality.
 
 ---
 
 ## Typography
+A deliberate two-font system: a heavy workhorse sans for punch, a serif italic for a single flourish.
 
-- **Display font:** [Cormorant Garamond](https://fonts.google.com/specimen/Cormorant+Garamond) (Google Fonts, free) — an elegant high-contrast serif. Light weights and *italic accent words* give the editorial-luxury feel. Used for: hero and section titles, project names, the name lockup.
-- **Sans / UI font:** [Jost](https://fonts.google.com/specimen/Jost) (Google Fonts, free) — a clean geometric sans in thin weights. Used for: body copy and the small uppercase wide-tracked labels (eyebrows, nav, tags).
+- **Primary — [Inter](https://fonts.google.com/specimen/Inter)** (Google Fonts, free). Weights 400–900. Big kinetic headlines and section titles use **900**; body is 400; small uppercase wide-tracked labels (eyebrows, nav, tags) use 500–600. Inter carries the modern, confident, "creative studio" energy.
+- **Accent — [Cormorant Garamond](https://fonts.google.com/specimen/Cormorant+Garamond) italic** (Google Fonts, free). Used *only* for one accent word inside a headline ("not *tells.*", "done with *taste.*", "The *proof.*") and for pull-quotes. This single serif flourish is the luxury.
 
-**Pairing logic:** Cormorant Garamond carries the elegance and taste; Jost keeps the details quiet and modern. The serif performs, the sans stays out of the way. *(Revised 2026-06-30 from Space Grotesk + Inter to match the editorial-luxury direction Sam chose, à la habanify / koluxury.)*
+**Pairing logic:** Inter does the shouting; Cormorant italic does the whispering. The contrast between a heavy sans and a delicate gold serif is the whole personality — bold and refined at once. Never set body copy or labels in the serif; it's a garnish, not the meal.
 
 ---
 
 ## Voice
+**Three adjectives:** Direct · Warm · Unpretentious.
 
-**Three adjectives:** Direct. Warm. Unpretentious.
+**We sound like this:** "I built this because I was tired of telling people what I do instead of just showing them. Everything here is mine, made the way I'd make it for a client."
 
-**We sound like this:**
-"I built this site because I was tired of telling people what I do instead of just showing them. Everything here — the layout, the copy, the case studies — is mine, made the way I'd make it for a client."
+**We never sound like this:** "Ko Vision is a multidisciplinary creative studio delivering bespoke digital experiences that elevate your brand's online presence."
 
-**We never sound like this:**
-"Ko Vision is a multidisciplinary creative studio delivering bespoke digital experiences that elevate your brand's online presence."
-
-The test: if a sentence could be copy-pasted onto any agency's homepage and still make sense, cut it. Every line should only make sense coming from Sam, in his voice, about his own work. First person where it's natural ("I built," "I help myself"). No "we" — there is no team behind this brand, and pretending otherwise breaks trust on contact.
-
-Bilingual note: English is the default voice for the site. If/when Mandarin content is added (social clips, captions), keep the same directness — no formal/corporate register shift between languages.
+The test: if a line could be pasted onto any agency's homepage, cut it. First person always ("I built," "I help") — there's no "we," and pretending otherwise breaks trust. English is the default; Mandarin content keeps the same directness, no corporate register shift.
 
 ---
 
-## Logo & Usage
+## Logo & mark
+The main identity is the **name lockup** and Sam's face — no logo symbol on the site itself.
+- **Name lockup:** "Ko Vision." in Inter, bold (800), Ink on the warm canvas. Two words, title case, with the period — never "KoVision."
+- **KV tile mark:** the *only* symbol, used *only* where a full name can't fit (browser-tab favicon, social avatars). "KV" in bold on a **Signal Gold `#E8B931`** rounded square. Lives at `site/favicon.svg`. Never place it as a logo within the site.
+- **Photo of Sam:** editorial, natural or clean studio light, no heavy filters or stock gloss — it should look like the same hand that made the work below it.
 
-The main identity is Sam's name and face, not a symbol — a portfolio making the case "I have taste" doesn't need an icon to prove it. The **one exception** is a small **KV monogram tile**, used *only* where a full name can't fit:
+---
 
-- **KV tile mark:** "KV" in Space Grotesk bold, black `#0D0D0D` on a Signal Gold `#E8B931` rounded square. Used for the browser-tab favicon and social avatars. Never place it as a logo on the site itself — the name lockup is the identity; the tile is just the small-space stand-in.
+## Design system — the signature motifs
+These are what make a page unmistakably Ko Vision. Reuse them across the site, social, and decks.
+- **Rounded everything.** The page sits inside a large rounded frame; cards, pills, and buttons are all soft-cornered.
+- **Tilted image cards with a "+".** Work and highlights live in rounded photo tiles, gently rotated (±5–9°), each with a white circular "+" and a bold white label. The signature interaction.
+- **Kinetic headlines.** Oversized Inter 900, some words solid Ink and some faded (Faint Greige), with one word in gold Cormorant italic.
+- **Eyebrow + rule.** Section labels are small, uppercase, wide-tracked gold, prefixed with a short gold line.
+- **Marquee strip.** A slow-scrolling row of capabilities (Web · Design · Social · Content · SEO · Branding) separated by gold ✦.
+- **Pill nav & buttons.** Ink or gold pills; the primary CTA is a gold "⚡ Start a project" pill.
 
-- **Name lockup:** "Ko Vision" set in Space Grotesk, medium weight, Ink Navy on Paper White (or reversed: Paper White on Ink Navy for dark sections). Always two words, always title case — never "KoVision" or "koVision."
-- **Clear space:** minimum clear space around the lockup equal to the cap-height of the "K."
-- **Minimum size:** never render the lockup smaller than 16px cap-height — it stops being legible and starts looking like a typo.
-- **Photo of Sam:** when used as the hero/face of the site, treat it like editorial photography — natural light or clean studio light, no heavy filters, no stock-photo gloss. It needs to look like the same person who made the work in the portfolio below it, not a separate "about me" headshot from a different shoot.
-- **Don't:**
-  - Don't stretch, skew, or add a drop shadow to the name lockup.
-  - Don't recolor the lockup outside Ink Navy / Paper White / Graphite.
-  - Don't invent a secondary icon or monogram to "fill space" — empty space is doing its job.
-  - Don't put the amber accent behind or through the name lockup — amber is for action, not identity.
+---
+
+## Imagery
+- **Sam's own work only** — no stock, ever. Currently: food & content photography (a dark-background set and a lighter flat-lay set).
+- Let the photography be the most colorful, busiest thing on the page; the brand system stays quiet around it.
+- Dark-background dishes sit beautifully in the tilted gold-accented cards; keep a subtle dark gradient over the bottom so white labels stay legible.
 
 ---
 
 ## Do / Don't
-
 **Do:**
-1. Let portfolio pieces (screenshots, mockups, case study visuals) be the most colorful, busiest thing on any page — the brand system stays quiet around them.
-2. Write every line of copy as if Sam is saying it out loud to one specific creator he's trying to convince.
-3. Use amber as a single deliberate pointer per screen (one CTA, one highlighted link) — never as a background or fill color.
-4. Treat the "90-day proof" content (his own live social posts/designs) as real case study material — caption it, credit it, show it like client work.
-5. Keep layouts generous with white space — "clear" is a layout decision as much as a color decision.
+1. Let the photography lead — quiet the chrome around it.
+2. Use gold as a single deliberate pointer per screen.
+3. Keep one serif-italic accent word per headline, no more.
+4. Write every line as if Sam is saying it out loud to one specific person.
+5. Keep layouts generous with space — "clear" is a layout decision.
 
 **Don't:**
-1. Don't add a tagline-of-the-week or rotating hero copy — the elevator line is the elevator line until Sam changes it on purpose.
-2. Don't use stock photography anywhere on the site — every image should be Sam's own work or Sam himself.
-3. Don't introduce a third accent color "just for variety" — if amber isn't doing the job, fix the layout, don't add a color.
-4. Don't write in third person about Sam ("Samuel Ko is a digital creator who...") — first person only, it's his portfolio, not a press kit.
-5. Don't let this 90-day version calcify into untouchable scripture — it's explicitly a decision Sam can revisit, not a forever identity. Revisit at the 90-day mark on purpose.
+1. Don't use stock photography anywhere.
+2. Don't set body or labels in the serif — it's an accent only.
+3. Don't add a second accent color; if gold isn't working, fix the layout.
+4. Don't write in third person about Sam — first person only.
+5. Don't let this calcify — it's a 90-day version, revisited on purpose at the mark (2026-09-28).
 
 ---
 
 ## Note to Sam
-Review the palette and voice samples first — those two choices drive everything design and social touch downstream. The single decision I most want your eyes on: **going with no separate logo mark, just the "Ko Vision" name lockup in Space Grotesk.** It's the cleanest read on "I am the brand," but if you want a small monogram or symbol for things like a favicon or social avatar where a name doesn't fit, say so now — easier to add that spec before design starts building anything against this kit.
+This kit now matches your live site exactly, so anything the design or social agents build will stay on-brand. The one open call worth your eye: your site's *services* say web/social/SEO, but your *proof* is photography — at the 90-day review, decide whether Ko Vision leans harder into **food & content photography** as the hook, since that's what your work actually shows. Not a today decision; just flagged.
