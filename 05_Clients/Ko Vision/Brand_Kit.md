@@ -9,6 +9,8 @@ Samuel Ko's personal creative portfolio — a showreel of his work, his eye, and
 
 **Elevator line:** "Ko Vision is Samuel Ko's creative portfolio — clear, modern work that shows what a digital creator with taste can actually build."
 
+**Domain:** **thekovision.com** (registered at GoDaddy; DNS moving to Cloudflare). The brand name stays two words — "Ko Vision" — even though the domain carries "the".
+
 ## The feeling
 **Three words:** Clear · Modern · Trustworthy — now delivered with a **warm, editorial-luxury** confidence (playful energy + refined taste). The brand frames the work; it never competes with it. Taste shows up in the photography and the layout, not in loud chrome.
 

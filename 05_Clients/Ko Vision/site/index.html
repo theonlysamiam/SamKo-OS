@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- kovision.com — v6 draft. "Creative studio × luxury" fusion (warm greige, kinetic type,
+<!-- thekovision.com — v6 draft. "Creative studio × luxury" fusion (warm greige, kinetic type,
      tilted work-cards, gold + serif accents). Sam, 2026-06-30. TODO = placeholders. Draft. -->
 <html lang="en">
 <head>
@@ -115,7 +115,7 @@
         <input type="email" class="contact-input" placeholder="Your email address" required id="emailInput" />
         <button type="submit" class="contact-btn">Start</button>
       </form>
-      <p class="contact-note">TODO: set the real contact email (currently hello@kovision.com).</p>
+      <p class="contact-note">TODO: set the real contact email (currently hello@thekovision.com).</p>
     </section>
 
     <footer>
@@ -137,7 +137,7 @@
         </div>
         <div>
           <div class="footer-col-title">Contact</div>
-          <ul class="footer-links"><li><a href="#contact">Start a project</a></li><li><a href="mailto:hello@kovision.com">Email me</a></li></ul>
+          <ul class="footer-links"><li><a href="#contact">Start a project</a></li><li><a href="mailto:hello@thekovision.com">Email me</a></li></ul>
         </div>
       </div>
       <div class="footer-bottom">
@@ -151,7 +151,7 @@
     document.getElementById('yr').textContent = new Date().getFullYear();
     const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } }), { threshold: 0.12 });
     document.querySelectorAll('.reveal').forEach(el => io.observe(el));
-    function startProject(e) { e.preventDefault(); const from = document.getElementById('emailInput').value; window.location.href = 'mailto:hello@kovision.com?subject=Project inquiry&body=' + encodeURIComponent('Hi Samuel — my email is ' + from + ' and I\'d like to talk about a project.'); }
+    function startProject(e) { e.preventDefault(); const from = document.getElementById('emailInput').value; window.location.href = 'mailto:hello@thekovision.com?subject=Project inquiry&body=' + encodeURIComponent('Hi Samuel — my email is ' + from + ' and I\'d like to talk about a project.'); }
   </script>
 </body>
 </html>

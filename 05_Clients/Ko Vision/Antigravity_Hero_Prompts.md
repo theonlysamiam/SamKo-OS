@@ -6,7 +6,7 @@ created: 2026-06-30
 
 # Ko Vision — Antigravity Hero Portrait Prompts
 
-Use these in Antigravity 2.0 to generate creative hero concepts for kovision.com. Pick the direction that feels most like you, then use it to inform your real photo shoot too.
+Use these in Antigravity 2.0 to generate creative hero concepts for thekovision.com. Pick the direction that feels most like you, then use it to inform your real photo shoot too.
 
 ---
 

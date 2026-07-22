@@ -60,7 +60,7 @@ This is the source document for who Samuel is, how he works, and what the system
 25. Client management: how many active clients, and where does client info live right now?
 26. Sales: walk me through how a deal goes from first contact to signed today. Where does it stall?
 27. GHL: who are you setting it up for first, and what do you already know vs. need to learn?
-28. Ko Vision (kovision.com): in one line, who is it for and what do you sell them?
+28. Ko Vision (thekovision.com): in one line, who is it for and what do you sell them?
 
 ## Section 7 — Tools, memory, and where things live
 *So the system plugs into what you already use.*
@@ -84,7 +84,7 @@ This is the source document for who Samuel is, how he works, and what the system
 
 **Section 5 — Chloe.** Wants specific, never general. Check client business + the problem to solve, daily tasks, emails, alerts (secretary-like), SEO/keywords/descriptions, accounting, sales projections. Daily communication + report. First job: build a lead magnet, follow up with clients, answer their questions directly. Check in every day. Open to Chloe being right when he's wrong.
 
-**Section 6 — The work.** Social: Instagram, TikTok, Facebook, LinkedIn (clients + Ko Vision). Marketing focus: Instagram + Facebook. Client info lives nowhere yet (Jon has Notion onboarding; CRM/GHL TBD). No sales experience yet — learning. GHL: Sam sets it up for him + Jon. Ko Vision (kovision.com): personal brand; wants to sell websites, content creation, AI call centre, booking/appointments, ecommerce, social media management, SEO, lead gen.
+**Section 6 — The work.** Social: Instagram, TikTok, Facebook, LinkedIn (clients + Ko Vision). Marketing focus: Instagram + Facebook. Client info lives nowhere yet (Jon has Notion onboarding; CRM/GHL TBD). No sales experience yet — learning. GHL: Sam sets it up for him + Jon. Ko Vision (thekovision.com): personal brand; wants to sell websites, content creation, AI call centre, booking/appointments, ecommerce, social media management, SEO, lead gen.
 
 **Section 7 — Tools & automation.** Hasn't used Notion/Obsidian deeply yet — wants concrete ideas, not generic. Automate first: formalize each SOP step with Claude Code, then automate the social-media SOP with human approval gates. **The SOP:** 1) onboard client + profile → 2) audit brand + social presence, score + improvement strategy → 3) [GATE] present strategy, client approves → 4) content studio (Jon's ~70%-automated, no-slop system) → 5) Sam reviews folder + Canva design/edits + post copy → 6) [GATE] Sam/Jon approve → 7) publish via Metricool or Blotato → 8) manage + report after 2 weeks → 9) continue / pivot / add layers.
 

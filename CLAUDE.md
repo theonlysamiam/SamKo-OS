@@ -30,7 +30,7 @@ This keeps the board honest so Jon always sees Sam's real status.
 ## The team (specialist agents)
 Delegate to these. They live in `.claude/agents/`. Names are functional placeholders — Sam will rename them as the team takes shape. (New agents activate when Sam starts a fresh session in this folder.)
 - **branding** — builds brand kits (palette, type, voice, usage rules). Use when onboarding a client or defining Ko Vision. Runs the `brand-kit` skill.
-- **web-builder** — builds and ships websites, starting with kovision.com. Runs the `portfolio-site` skill.
+- **web-builder** — builds and ships websites, starting with thekovision.com. Runs the `portfolio-site` skill.
 - **design** — Canva design and post edits, built from the brand kit. Runs the `canva-post` skill.
 - **social-media** — publishing and scheduling; loads approved posts into Metricool/Blotato and reports results. Runs the `publish-schedule` skill.
 
@@ -47,4 +47,4 @@ Reusable recipes in `.claude/skills/`. Agents run them; Sam can also run one dir
 - The OS is a Git repository backed up to a private GitHub repo. Sensitive files (credentials, tax data) are git-ignored and never committed.
 
 ## Current focus
-Sam's active first build: **kovision.com**, his creative portfolio (discovery locked 2026-06-26). In parallel, the **social media management SOP** is his deliverable to Jon. Everything we build points at those.
+Sam's active first build: **thekovision.com**, his creative portfolio (discovery locked 2026-06-26). In parallel, the **social media management SOP** is his deliverable to Jon. Everything we build points at those.

@@ -4,20 +4,25 @@ status: in-progress
 updated: 2026-06-30
 ---
 
-# kovision.com — build progress
+# thekovision.com — build progress
 
-**Current version:** v4 (quiet-luxury, habanify-inspired) at `05_Clients/Ko Vision/site/` — `index.html` + `style.css`.
+**Current version:** v6 — "creative studio × luxury" fusion. Files at `05_Clients/Ko Vision/site/` (`index.html`, `style.css`, `favicon.svg`, `images/`).
 
-**Direction:** calm centered hero, quiet statement line, refined services grid (Web / Brand / Social / Content / SEO), alternating featured-work rows, client pull-quote, scroll-reveal. Palette: black `#0E0E0E`, warm gold-yellow accent `#E8B931`, cream text `#EFEAE0`. Fonts: Space Grotesk + Inter. Voice: direct, unpretentious (per brand kit).
+**Direction (locked):** warm greige canvas (`#C6BCA8`), big kinetic Inter 900 headlines with one faded word, gold accent (`#B0842A` light / `#E8B931` bright), Cormorant Garamond italic on a single accent word, tilted photo cards with "+" buttons, pill nav, marquee, reveal-on-scroll. Matches `Brand_Kit.md` v2.
 
-**History:** v1 simple navy → v2 bold black/yellow → v3 black/yellow bento → **v4 quiet-luxury (keeper)**. Brand kit revised to black & yellow on 2026-06-30.
+**History:** v1 navy → v2 bold black/yellow → v3 bento → v4 quiet-luxury → v5 editorial luxury → **v6 fusion (keeper)**.
 
-**Open decisions:**
-1. Accent — warm gold `#E8B931` vs bright yellow `#FFD60A`.
-2. Base — dark (current) vs airier cream/light (more habanify).
+**Decisions closed:** accent = warm gold `#E8B931` / `#B0842A`; mark = KV gold tile (favicon live); base = warm light (not dark); domain = **thekovision.com**.
 
-**Placeholders to replace (TODO in files):** real work pieces + images (live socials = piece #1), Sam's photo, real contact email (placeholder `hello@kovision.com`), a real client quote, confirm hero headline.
+**Real content in place:** Sam's own food photography — 10 Sony RAW files converted to web JPEGs in `images/`. Hero cards use food-02 (Pho), food-06 (Rolls), food-05 (Bún). Work cards use food-01 (featured spread), food-04 (signature), food-08 (light flat lay). Four spare shots remain for later.
 
-**Gate:** draft — not approved, not deployed, not committed to git yet.
+**Still to do (needs Sam):**
+1. Headshot for the About section (editorial, natural light).
+2. Real contact email — currently placeholder `hello@thekovision.com`.
+3. Optional: a real client quote for the manifesto/quote slot.
 
-**Next:** lock the two decisions → drop in one real piece + photo → Sam approves → commit + deploy (GitHub Pages).
+**Infrastructure:** domain at GoDaddy, DNS moving to Cloudflare (DNSSEC off → nameservers swapped). Hosting plan: GitHub Pages from the private repo, then point thekovision.com at it.
+
+**Gate:** still a draft — approved direction, not yet deployed. Committed and pushed to the private repo.
+
+**Next:** finish the Cloudflare/GoDaddy nameserver swap → add the two remaining assets → Sam approves → deploy to GitHub Pages → point the domain.

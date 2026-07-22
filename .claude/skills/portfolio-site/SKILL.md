@@ -1,6 +1,6 @@
 ---
 name: portfolio-site
-description: Plan and build a one-page personal portfolio website from a brand kit — hero, work showcase, about, and contact — written in the brand voice and ready to deploy. Use when building or rebuilding a portfolio site like kovision.com.
+description: Plan and build a one-page personal portfolio website from a brand kit — hero, work showcase, about, and contact — written in the brand voice and ready to deploy. Use when building or rebuilding a portfolio site like thekovision.com.
 ---
 
 # Skill: portfolio-site
@@ -28,4 +28,4 @@ Pick one. Don't reopen it.
 5. **Polish** — mobile layout, fast load, favicon, page title/meta.
 
 ## Output & gate
-Build it in the repo. Show Sam the result. The site is a draft until he approves it (human gate). On approval, deploy (GitHub Pages) and point kovision.com at it. End with Sam's next minimum viable floor.
+Build it in the repo. Show Sam the result. The site is a draft until he approves it (human gate). On approval, deploy (GitHub Pages) and point thekovision.com at it. End with Sam's next minimum viable floor.
