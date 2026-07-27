@@ -22,3 +22,6 @@ build/
 # Runtime locks
 .claude/scheduled_tasks.lock
 *.lock
+
+# MCP config (may hold API keys)
+.mcp.json
